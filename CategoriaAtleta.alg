@@ -34,5 +34,7 @@ Inicio
          fimse
       fimse
    fimse
+   
+   escreval("------------------------")
 
 Fimalgoritmo
