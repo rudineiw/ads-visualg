@@ -1,25 +1,38 @@
 Algoritmo "CategoriaAtleta"
-
+// Disciplina   : [Lógica de Programação]
+// Professor   : Mouriac Dieme 
+// Descrição   : Categorizar o atleta conforme a idade informada
+// Autor(a)    : Rudinei Edgar Weschenfelder
+// Data atual  : 10/03/2026
 Var
-   idade: inteiro
+
+idade: inteiro
+
 
 Inicio
-
    escreva("Digite a idade do atleta: ")
    leia(idade)
 
    se idade < 12 entao
-      escreva("Não habilitado a competir")
-   senao se idade <= 15 entao
-      escreva("Categoria Menor")
-   senao se idade <= 19 entao
-      escreva("Categoria Juvenil")
-   senao se idade <= 23 entao
-      escreva("Categoria Sub-23")
-   senao se idade <= 35 entao
-      escreva("Categoria Adulto")
+      escreval("Não habilitado a competir")
    senao
-      escreva("Categoria Master")
+      se idade <= 15 entao
+         escreval("Categoria Menor")
+      senao
+         se idade <= 19 entao
+            escreval("Categoria Juvenil")
+         senao
+            se idade <= 23 entao
+               escreval("Categoria Sub-23")
+            senao
+               se idade <= 35 entao
+                  escreval("Categoria Adulto")
+               senao
+                  escreval("Categoria Master")
+               fimse
+            fimse
+         fimse
+      fimse
    fimse
 
 Fimalgoritmo
