@@ -29,6 +29,6 @@ Inicio
     escreval(nome2)
     escreval(nome1)
 
-    escreval("------------------------")
+    escreval("-------------------------")
 
 Fimalgoritmo
