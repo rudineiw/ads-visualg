@@ -5,9 +5,7 @@ Algoritmo "CategoriaAtleta"
 // Autor(a)    : Rudinei Edgar Weschenfelder
 // Data atual  : 10/03/2026
 Var
-
-idade: inteiro
-
+   idade: inteiro
 
 Inicio
    escreva("Digite a idade do atleta: ")

@@ -37,5 +37,5 @@ Inicio
     escreval(nome4, " tem ", idade4, " anos")
     
     escreval("------------------------")
-    
+
 Fimalgoritmo
