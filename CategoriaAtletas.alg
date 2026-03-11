@@ -41,7 +41,7 @@ Inicio
          fimse
       fimse
 
-      escreval("------------------------")
+      escreval("-------------------------")
 
    fimpara
 
