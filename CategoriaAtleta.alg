@@ -33,6 +33,6 @@ Inicio
       fimse
    fimse
    
-   escreval("------------------------")
+   escreval("-------------------------")
 
 Fimalgoritmo
